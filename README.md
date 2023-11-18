@@ -56,7 +56,7 @@ While developing and using this script, there are several important observations
    - Since the script uses the `lyricsgenius` library to fetch song lyrics, it is bound by the functionalities and limitations of this library. As a result, not all desired data might be available or retrievable in the way expected.
 
 2. **Handling Bands and Solo Artists**:
-   - When working with bands, the script might discard some songs. This is due to the tags in the lyrics referencing individual artists rather than the band as a whole, making it challenging to determine if these songs belong to the band, since there is no information when making the request for the songs for what members the band is composed of.
+   - When working with bands, the script might discard some songs. This is due to the tags in the lyrics referencing individual artists rather than the band as a whole, making it challenging to determine if these songs belong to the band, since there is no information when making the request for the songs, of what members the band is composed of.
 
 3. **Performance with Popular Artists**:
    - Fetching songs of very popular artists with extensive discographies can be time-consuming. The script needs to retrieve and process a large amount of data, which might result in longer execution times.
