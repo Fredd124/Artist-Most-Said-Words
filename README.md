@@ -28,15 +28,15 @@ Before running this script, ensure you have the following installed:
    ```
    
 3. **Set up Genius API Token**:
-  1. **Obtain a Genius API token**.
-     - Visit the [Genius API page](https://genius.com/developers) and follow the instructions to obtain an API token.
-  
-  2. **Create a `.env` file in the root directory**.
-     - Add your Genius API token to the file you created. Use the following format:
-  
-       ```makefile
-       TOKEN=your_genius_api_token_here
-       ```
+     1. **Obtain a Genius API token**.
+        - Visit the [Genius API page](https://genius.com/developers) and follow the instructions to obtain an API token.
+     
+     2. **Create a `.env` file in the root directory**.
+        - Add your Genius API token to the file you created. Use the following format:
+     
+          ```makefile
+          TOKEN=your_genius_api_token_here
+          ```
 
 ## Usage 
 
